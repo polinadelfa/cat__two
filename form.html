@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ru"> <!--не забудь ru !-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Формы</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!--тег формы-->
+    <form action="">
+        <p>
+            <!--полое для ввода проля-->
+            Login <input type="text" placeholder="Введите логин" required>
+        </p>
+        <p>
+            Password<input type="password" name="password" placholder="Введите пароль" required>
+        </p>
+        <h3>Ваши интересы</h3>
+
+        <label><input type="checkbox" name="interess" value="sport">Спорт<!--disabled галку нельзя убрать-->
+            <!--checked галка автоматом-->
+        </label>
+        <p>
+            <input type="checkbox" name="interess" value="programmiing" id="programmiing">Програмирование
+            <input type="checkbox" name="interess" value="art">рисование
+        </p>
+        <p>
+        <h3>Способ оплаты</h3>
+        <label><input type="radio" name="pay" value="card">Карта</label>
+        <label> <input type="radio" name="pay" value="qr">QR код</label>
+        <label> <input type="radio" name="pay" value="cash">Наличными</label>
+        </p>
+        </p>
+
+        <input type="submit" value="Войти">
+        <h3>Ваш город</h3>
+        <select name="city">
+            <option value="moscow">Москва</option>
+            <option value="surgut">Сургут</option>
+            <option value="tymen">Тюмень</option>
+        </select>
+        <p>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+        </p>
+        <p>
+            <input type="submit" value="Войти">
+            ,<button type="reset">Очистить</button>
+        </p>
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,40 @@
+* {
+    width: 300px;
+}
+
+div p {
+    color: brown;
+}
+
+p {
+    color: rgb(255, 0, 0);
+}
+
+#title {
+    background-color: blue;
+}
+
+.title {
+    color: rgb(245, 27, 27);
+}
+
+.title2 {
+    color: rgb(255, 255, 255);
+}
+
+.title3 {
+    color: aliceblue;
+}
+
+[type='password'] {
+    background-color: tomato;
+}
+
+.item {
+    text-transform: uppercase;
+}
+
+
+.list>li {
+    list-style: none;
+}
